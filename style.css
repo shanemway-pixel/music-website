@@ -1,0 +1,76 @@
+/* Basic page styling */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+#main-header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Main heading */
+h1 {
+    font-size: 36px;
+}
+
+/* Other headings */
+h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+.text {
+    line-height: 1.5;
+}
+
+/* Artist section */
+#artist {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Flexbox layout */
+.music-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Music sections */
+.music-section {
+    background-color: white;
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+/* Footer styling */
+#main-footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
