@@ -1,77 +1,49 @@
-css/style.css
-/* Basic page styling */
-body {
-    background-color: lightgray;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Music Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
 
-/* Header styling */
-#main-header {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 25px;
-}
+<body>
 
-/* Main heading */
-h1 {
-    font-size: 36px;
-}
+    <header id="main-header">
+        <h1>My Music Page</h1>
+        <p class="intro">Welcome to my music website!</p>
+    </header>
 
-/* Other headings */
-h2 {
-    text-align: center;
-    font-size: 28px;
-}
+    <main>
 
-h3 {
-    font-size: 22px;
-}
+        <section id="artist">
+            <h2>Drake</h2>
+            <p class="text">Drake is one of my favorite artists. I like his music because he has a lot of good songs.</p>
+        </section>
 
-/* Paragraph styling */
-p {
-    font-size: 18px;
-}
+        <div class="music-container">
 
-.intro {
-    font-size: 20px;
-}
+            <section class="music-section">
+                <h2>Favorite Songs</h2>
+                <p class="text">God's Plan</p>
+                <p class="text">One Dance</p>
+                <p class="text">Hotline Bling</p>
+            </section>
 
-.text {
-    line-height: 1.5;
-}
+            <section class="music-section">
+                <h2>Favorite Albums</h2>
+                <p class="text">Take Care</p>
+                <p class="text">Views</p>
+                <p class="text">Scorpion</p>
+            </section>
 
-/* Artist section */
-#artist {
-    background-color: white;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-}
+        </div>
 
-/* Flexbox layout */
-.music-container {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin: 20px;
-}
+        <a href="page2.html">See my other favorite artists!</a>
 
-/* Music sections */
-.music-section {
-    background-color: white;
-    padding: 20px;
-    width: 40%;
-    border-radius: 10px;
-}
+    </main>
 
-/* Footer styling */
-#main-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 30px;
-}
+    <footer id="main-footer">
+        <p class="text">My Music Website</p>
+    </footer>
+
+</body>
+</html>
